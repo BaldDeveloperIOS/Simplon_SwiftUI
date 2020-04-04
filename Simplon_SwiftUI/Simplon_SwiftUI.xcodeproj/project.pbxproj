@@ -13,6 +13,9 @@
 		1151F15A2438BFFB00E82A0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1151F1592438BFFB00E82A0E /* Assets.xcassets */; };
 		1151F15D2438BFFB00E82A0E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1151F15C2438BFFB00E82A0E /* Preview Assets.xcassets */; };
 		1151F1602438BFFB00E82A0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1151F15E2438BFFB00E82A0E /* LaunchScreen.storyboard */; };
+		118EE9532438C3F500E41936 /* ControlFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118EE9522438C3F500E41936 /* ControlFlow.swift */; };
+		118EE9552438C47700E41936 /* Textfields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118EE9542438C47700E41936 /* Textfields.swift */; };
+		118EE9572438C54100E41936 /* TemperatureConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118EE9562438C54100E41936 /* TemperatureConverter.swift */; };
 		11A398D22438C04800F83FC6 /* HelloCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A398D12438C04800F83FC6 /* HelloCanvas.swift */; };
 		11C20EA62438C19000CFEE0B /* UserProfileOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C20EA52438C19000CFEE0B /* UserProfileOne.swift */; };
 		11C20EA82438C19E00CFEE0B /* UserProfileTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C20EA72438C19E00CFEE0B /* UserProfileTwo.swift */; };
@@ -29,6 +32,9 @@
 		1151F15C2438BFFB00E82A0E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1151F15F2438BFFB00E82A0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1151F1612438BFFB00E82A0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		118EE9522438C3F500E41936 /* ControlFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlFlow.swift; sourceTree = "<group>"; };
+		118EE9542438C47700E41936 /* Textfields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Textfields.swift; sourceTree = "<group>"; };
+		118EE9562438C54100E41936 /* TemperatureConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConverter.swift; sourceTree = "<group>"; };
 		11A398D12438C04800F83FC6 /* HelloCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloCanvas.swift; sourceTree = "<group>"; };
 		11C20EA52438C19000CFEE0B /* UserProfileOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileOne.swift; sourceTree = "<group>"; };
 		11C20EA72438C19E00CFEE0B /* UserProfileTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileTwo.swift; sourceTree = "<group>"; };
@@ -70,6 +76,9 @@
 				11C20EA52438C19000CFEE0B /* UserProfileOne.swift */,
 				11FB1D682438C2480009BD90 /* BGColor.swift */,
 				11FB1D6A2438C2B40009BD90 /* SliderBGColor.swift */,
+				118EE9522438C3F500E41936 /* ControlFlow.swift */,
+				118EE9542438C47700E41936 /* Textfields.swift */,
+				118EE9562438C54100E41936 /* TemperatureConverter.swift */,
 				11C20EA72438C19E00CFEE0B /* UserProfileTwo.swift */,
 				1151F1532438BFFA00E82A0E /* AppDelegate.swift */,
 				1151F1552438BFFA00E82A0E /* SceneDelegate.swift */,
@@ -161,7 +170,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				118EE9572438C54100E41936 /* TemperatureConverter.swift in Sources */,
 				11A398D22438C04800F83FC6 /* HelloCanvas.swift in Sources */,
+				118EE9532438C3F500E41936 /* ControlFlow.swift in Sources */,
 				11FB1D6B2438C2B40009BD90 /* SliderBGColor.swift in Sources */,
 				11C20EA62438C19000CFEE0B /* UserProfileOne.swift in Sources */,
 				1151F1542438BFFA00E82A0E /* AppDelegate.swift in Sources */,
@@ -169,6 +180,7 @@
 				1151F1562438BFFA00E82A0E /* SceneDelegate.swift in Sources */,
 				1151F1582438BFFA00E82A0E /* ContentView.swift in Sources */,
 				11FB1D692438C2480009BD90 /* BGColor.swift in Sources */,
+				118EE9552438C47700E41936 /* Textfields.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
