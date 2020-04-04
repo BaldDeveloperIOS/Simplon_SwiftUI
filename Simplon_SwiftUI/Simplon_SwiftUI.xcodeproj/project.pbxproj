@@ -14,6 +14,10 @@
 		1151F15D2438BFFB00E82A0E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1151F15C2438BFFB00E82A0E /* Preview Assets.xcassets */; };
 		1151F1602438BFFB00E82A0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1151F15E2438BFFB00E82A0E /* LaunchScreen.storyboard */; };
 		11A398D22438C04800F83FC6 /* HelloCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A398D12438C04800F83FC6 /* HelloCanvas.swift */; };
+		11C20EA62438C19000CFEE0B /* UserProfileOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C20EA52438C19000CFEE0B /* UserProfileOne.swift */; };
+		11C20EA82438C19E00CFEE0B /* UserProfileTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C20EA72438C19E00CFEE0B /* UserProfileTwo.swift */; };
+		11FB1D692438C2480009BD90 /* BGColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FB1D682438C2480009BD90 /* BGColor.swift */; };
+		11FB1D6B2438C2B40009BD90 /* SliderBGColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FB1D6A2438C2B40009BD90 /* SliderBGColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		1151F15F2438BFFB00E82A0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1151F1612438BFFB00E82A0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11A398D12438C04800F83FC6 /* HelloCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloCanvas.swift; sourceTree = "<group>"; };
+		11C20EA52438C19000CFEE0B /* UserProfileOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileOne.swift; sourceTree = "<group>"; };
+		11C20EA72438C19E00CFEE0B /* UserProfileTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileTwo.swift; sourceTree = "<group>"; };
+		11FB1D682438C2480009BD90 /* BGColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BGColor.swift; sourceTree = "<group>"; };
+		11FB1D6A2438C2B40009BD90 /* SliderBGColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderBGColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 			isa = PBXGroup;
 			children = (
 				11A398D12438C04800F83FC6 /* HelloCanvas.swift */,
+				11C20EA52438C19000CFEE0B /* UserProfileOne.swift */,
+				11FB1D682438C2480009BD90 /* BGColor.swift */,
+				11FB1D6A2438C2B40009BD90 /* SliderBGColor.swift */,
+				11C20EA72438C19E00CFEE0B /* UserProfileTwo.swift */,
 				1151F1532438BFFA00E82A0E /* AppDelegate.swift */,
 				1151F1552438BFFA00E82A0E /* SceneDelegate.swift */,
 				1151F1572438BFFA00E82A0E /* ContentView.swift */,
@@ -150,9 +162,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				11A398D22438C04800F83FC6 /* HelloCanvas.swift in Sources */,
+				11FB1D6B2438C2B40009BD90 /* SliderBGColor.swift in Sources */,
+				11C20EA62438C19000CFEE0B /* UserProfileOne.swift in Sources */,
 				1151F1542438BFFA00E82A0E /* AppDelegate.swift in Sources */,
+				11C20EA82438C19E00CFEE0B /* UserProfileTwo.swift in Sources */,
 				1151F1562438BFFA00E82A0E /* SceneDelegate.swift in Sources */,
 				1151F1582438BFFA00E82A0E /* ContentView.swift in Sources */,
+				11FB1D692438C2480009BD90 /* BGColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
