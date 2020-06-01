@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1119C243248520B5001BFAB3 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1119C242248520B5001BFAB3 /* ColorExtension.swift */; };
+		1119C245248520DE001BFAB3 /* NeoContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1119C244248520DE001BFAB3 /* NeoContentView.swift */; };
 		1151F1542438BFFA00E82A0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1151F1532438BFFA00E82A0E /* AppDelegate.swift */; };
 		1151F1562438BFFA00E82A0E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1151F1552438BFFA00E82A0E /* SceneDelegate.swift */; };
 		1151F1582438BFFA00E82A0E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1151F1572438BFFA00E82A0E /* ContentView.swift */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1119C242248520B5001BFAB3 /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		1119C244248520DE001BFAB3 /* NeoContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoContentView.swift; sourceTree = "<group>"; };
 		1151F1502438BFFA00E82A0E /* Simplon_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Simplon_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1151F1532438BFFA00E82A0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1151F1552438BFFA00E82A0E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +57,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1119C2412485209A001BFAB3 /* NeomorphismTest */ = {
+			isa = PBXGroup;
+			children = (
+				1119C242248520B5001BFAB3 /* ColorExtension.swift */,
+				1119C244248520DE001BFAB3 /* NeoContentView.swift */,
+			);
+			path = NeomorphismTest;
+			sourceTree = "<group>";
+		};
 		1151F1472438BFFA00E82A0E = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +85,7 @@
 		1151F1522438BFFA00E82A0E /* Simplon_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				1119C2412485209A001BFAB3 /* NeomorphismTest */,
 				11A398D12438C04800F83FC6 /* HelloCanvas.swift */,
 				11C20EA52438C19000CFEE0B /* UserProfileOne.swift */,
 				11FB1D682438C2480009BD90 /* BGColor.swift */,
@@ -173,6 +187,8 @@
 				118EE9572438C54100E41936 /* TemperatureConverter.swift in Sources */,
 				11A398D22438C04800F83FC6 /* HelloCanvas.swift in Sources */,
 				118EE9532438C3F500E41936 /* ControlFlow.swift in Sources */,
+				1119C243248520B5001BFAB3 /* ColorExtension.swift in Sources */,
+				1119C245248520DE001BFAB3 /* NeoContentView.swift in Sources */,
 				11FB1D6B2438C2B40009BD90 /* SliderBGColor.swift in Sources */,
 				11C20EA62438C19000CFEE0B /* UserProfileOne.swift in Sources */,
 				1151F1542438BFFA00E82A0E /* AppDelegate.swift in Sources */,
